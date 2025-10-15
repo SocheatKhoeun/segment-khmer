@@ -2,4 +2,4 @@ fastapi
 uvicorn
 pydantic
 requests
-pip3 install khmernltk
+khmernltk
