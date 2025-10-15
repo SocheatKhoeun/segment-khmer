@@ -2,4 +2,4 @@ fastapi
 uvicorn
 pydantic
 requests
-git+https://github.com/KoChhay/khmer-nltk.git
+khmernltk
