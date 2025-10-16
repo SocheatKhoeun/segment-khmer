@@ -12,4 +12,8 @@ class TextRequest(BaseModel):
 @app.post("/segment")
 def segment_text(request: TextRequest):
     tokens = word_tokenize(request.text, return_tokens=True)
-    return {"tokens": tokens}
+    total_words = len(tokens)
+    return {
+        "total_words": total_words,
+        "tokens": tokens
+    }
