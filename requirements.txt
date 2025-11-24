@@ -2,4 +2,4 @@ fastapi
 uvicorn
 pydantic
 requests
-khmernltk
+khmer-nltk
